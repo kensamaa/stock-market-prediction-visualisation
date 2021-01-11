@@ -1,3 +1,8 @@
+"""
+
+@author: kensama
+
+"""
 from flask import Flask,render_template,request
 import json
 import tensorflow as tf
@@ -80,7 +85,11 @@ def result():
             return "something is wrong "+str(e)
     else:
         return "shit"
+"""
 
+@author: kensama
+
+"""
 def prepar_data(df):
     df = df.dropna(how='any',axis=0) #remove null rows
     train, test = train_test_split(df, test_size=0.2,shuffle=False)
@@ -115,3 +124,8 @@ if __name__ == "__main__":
     global graph
     graph = tf.compat.v1.get_default_graph()
     app.run()
+"""
+
+@author: kensama
+
+"""
