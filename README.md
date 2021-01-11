@@ -7,8 +7,8 @@ predict stock market with python and  tensorflow and visualisation using flask a
 
 <h2>screenshots</h2>
 
-![](img/iam.png)
+![](img/iam.PNG)
 
-![](img/tesla.png)
+![](img/tesla.PNG)
 
-![](img/banc.pn)
+![](img/banc.PNG)
